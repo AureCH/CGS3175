@@ -1,0 +1,238 @@
+body
+	{
+		
+		background: linear-gradient(#000033, #cc7c7c);
+		background-color: #cc7c7c;
+		background-repeat: no-repeat;
+		color: #666666;
+		font-family : Arial, Helvetica, sans-serif;
+	}
+dd, dt
+	{
+		padding-bottom: .5em;
+	}
+footer
+	{
+		background-color: #FFFFFF;
+		font-family: Georgia, "Timse New Roman", serif;
+		font-size: 75%;
+		font-style: italic;
+		padding: 20px 20px 20px 20px;
+		
+		text-align: center;
+	}
+form
+	{
+		background-color: #D8D8D8;
+		box-shadow:2px 2px 2px black;
+		border: 1px solid #3399CC;
+		padding: 2px;
+	}	
+h1
+	{
+		font-family: Georgia, "Times New Roman", serif;
+		margin-bottom: 0%;
+		margin-top: 0%;
+	}	
+h2
+	{
+		color: #3399CC;
+		font-family: Georgia, "Times New Roman", seriff;
+		text-shadow: 1px 1px #CCCCCC;
+	}
+h3, dt
+	{
+		color: #000099;
+		font-family: Georgia, "Times New Roman", seriff;
+		font-weight: bold;
+	}
+
+header
+	{
+		
+		background-color: #000033;
+		
+		background-image: url("../Images/sunset.jpg");
+		background-repeat: no-repeat;
+		background-position: right;
+		color: #FFFFFF;
+		height: 60px;
+		padding-top: 15px;
+		text-align: center;
+		
+	}
+label
+	{
+		display: inline-block;
+		width: 140px;
+		text-align:right;
+	}	
+main
+	{
+		background-color: #FFFFFF;
+		margin-left: 190px;
+		padding-top: 1px;
+		padding-left: 30px;
+		padding-right: 20px;
+		padding-bottom: 20px;
+		
+
+	}	
+nav
+	{
+		
+		float: left;
+		font-weight: bold;
+		margin-top : 0%;
+		padding-top: 0%;
+		padding: 20px 20px;
+		width: 160px;
+		
+	}
+nav a
+	{
+		text-decoration: none;
+	}
+nav a:link
+	{
+		color: #000033;
+	}
+nav a:visited
+	{
+		color: #344873;
+	}
+nav a:hover
+	{
+		color: #FFFFFF;
+	}	
+nav ul
+	{
+		font-size: 1.2em;
+		margin: 0px 0px;
+		padding-left: 0px;
+		list-style-type: none;
+		
+	}
+main ul
+	{
+		list-style-image: url("Images/marker.gif");
+	}
+	
+table, th, td
+	{
+		border: 2px solid #cc7c7c;
+		padding: 5px;
+	}
+table
+	{
+		border-collapse:collapse;
+		margin-left: auto;
+		margin-right: auto;
+		padding: 0px;
+	}	
+th
+	{
+		background-color: #0b1189;
+		text-align: center;
+		font-weight: bold;
+		color: #FFFFFF;
+	}	
+	
+body tr:nth-child(odd)
+	{
+		background-color: #f2f2f2;
+	}
+tr td
+	{
+		text-align:center;
+	}
+tr td:nth-child(2)
+	{
+		text-align:left;
+	}
+tr:hover td
+{
+	background-color: yellow;
+}
+
+
+/*--Classes--*/
+.Contact
+	{
+		font-weight:bold;
+	}	
+.resort
+	{
+		color: #cc7c7c;
+		font-weight: bold;
+	}
+	
+/*--IDs--*/
+#about
+	{
+		background-image: url("../Images/Jacuruku.jpg");
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+		height: 700px;
+		margin-left: 190px;
+	}
+#activities-image
+	{
+		background-image: url("../Images/Products.jpg");
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+		height: 664px;
+		margin-left: 190px;
+	}
+#Comments
+	{
+		
+	}
+#contact
+	{
+		color: #cc7c7c;
+		font-size: 90%;
+		font-weight:bold;
+	}
+#main-image
+	{
+		background-image: url("../Images/Banner2.jpg");
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+		
+		height: 300px;
+		margin-left: 190px;
+		
+	}
+#numTel
+	{
+		display: inline;
+	}
+#numClick
+	{
+		display: none;
+	}
+#submit
+	{
+		background-color: #90C7E3;
+		border: 0px;
+		font-size: 14px;
+		font-weight: bold;
+		margin-left: 10%;
+		padding: 9px 15px;
+		width: auto;
+	}	
+#wrapper
+	{
+		
+		background-color: #cc7c7c;
+		
+		box-shadow: 3px 3px 3px 3px #333333;
+		
+		
+		margin-left: 10%;
+		min-width: 960px;
+		max-width: 2048px;
+		width: 80%;
+
+	}
